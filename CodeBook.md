@@ -29,4 +29,5 @@ dst2
 
 *Encode the vector a"allData" s a factor: allData$activity <- factor(allData$activity...)
 
-*Create a file with: write.table(allData.mean, "tidy.txt"  
+*Create a file with: write.table(allData.mean, "tidy.txt"...)
+  
