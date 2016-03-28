@@ -5,6 +5,6 @@ Project Week4
 ###Downloads variables
 ###Captures Labels and Features
 ###Extracts MEAN and STDDEV
-###Loads the simplified data sets
+###Loads data sets
 ###Merges data sets
 ###Creates file "tidy.txt"
