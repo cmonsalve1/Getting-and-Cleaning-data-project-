@@ -27,7 +27,7 @@ dst2
 
 *Merge data: allData <- rbind(train, test)
 
-*Encode the vector a"allData" s a factor: allData$activity <- factor(allData$activity...)
+*Encode the vector "allData" as a factor: allData$activity <- factor(allData$activity...)
 
 *Create a file with: write.table(allData.mean, "tidy.txt"...)
   
