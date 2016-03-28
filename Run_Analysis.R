@@ -4,7 +4,7 @@ variable<-"https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20
 dst2 = 'C:/Users/Chispita/Documents/Data Science/Getting and Cleaning Data/data2/getdata_dataset.zip'
 download(variable, dst2, mode="wb") 
 ## I decompressed the folder "getdata_dataset" straight from "Open windows explorer"
-## After that I setwd as follows:
+## After that, I setwd as follows:
 setwd("~/Data Science/Getting and Cleaning Data/data2/getdata_dataset")
 
 
@@ -25,7 +25,7 @@ featuresWanted.names <- gsub('[-()]', '', featuresWanted.names)
 featuresWanted.names <- gsub('[-()]', '', featuresWanted.names)
 train <- read.table("UCI HAR Dataset/train/X_train.txt")[featuresWanted]
 
-## Load the simplified data sets: 
+## Load the data sets: 
 trainActivities <- read.table("UCI HAR Dataset/train/Y_train.txt")
 trainSubjects <- read.table("UCI HAR Dataset/train/subject_train.txt")
 train <- cbind(trainSubjects, trainActivities, train)
